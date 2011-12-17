@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493C20C91104B04100C78E9B /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20BA1104B04100C78E9B /* Reachability.h */; };
+		493C20CA1104B04100C78E9B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20BB1104B04100C78E9B /* Reachability.m */; };
+		493C20CB1104B04100C78E9B /* SEHTTPData.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20BC1104B04100C78E9B /* SEHTTPData.h */; };
+		493C20CC1104B04100C78E9B /* SEHTTPData.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20BD1104B04100C78E9B /* SEHTTPData.m */; };
+		493C20CD1104B04100C78E9B /* SEMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20BE1104B04100C78E9B /* SEMutableURLRequest.h */; };
+		493C20CE1104B04100C78E9B /* SEMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20BF1104B04100C78E9B /* SEMutableURLRequest.m */; };
+		493C20CF1104B04100C78E9B /* SEURLDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20C01104B04100C78E9B /* SEURLDownload.h */; };
+		493C20D01104B04100C78E9B /* SEURLDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20C11104B04100C78E9B /* SEURLDownload.m */; };
+		493C20ED1104B48400C78E9B /* SEWebViewBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20EB1104B48400C78E9B /* SEWebViewBridge.h */; };
+		493C20EE1104B48400C78E9B /* SEWebViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20EC1104B48400C78E9B /* SEWebViewBridge.m */; };
+		4944DA371105CECC007827D9 /* SELibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4944DA361105CECC007827D9 /* SELibrary.h */; };
+		AA747D9F0F9514B9006C5449 /* SELibrary_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SELibrary_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		493C20BA1104B04100C78E9B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		493C20BB1104B04100C78E9B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		493C20BC1104B04100C78E9B /* SEHTTPData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEHTTPData.h; sourceTree = "<group>"; };
+		493C20BD1104B04100C78E9B /* SEHTTPData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEHTTPData.m; sourceTree = "<group>"; };
+		493C20BE1104B04100C78E9B /* SEMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMutableURLRequest.h; sourceTree = "<group>"; };
+		493C20BF1104B04100C78E9B /* SEMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMutableURLRequest.m; sourceTree = "<group>"; };
+		493C20C01104B04100C78E9B /* SEURLDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEURLDownload.h; sourceTree = "<group>"; };
+		493C20C11104B04100C78E9B /* SEURLDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEURLDownload.m; sourceTree = "<group>"; };
+		493C20EB1104B48400C78E9B /* SEWebViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEWebViewBridge.h; sourceTree = "<group>"; };
+		493C20EC1104B48400C78E9B /* SEWebViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEWebViewBridge.m; sourceTree = "<group>"; };
+		4944DA361105CECC007827D9 /* SELibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELibrary.h; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* SELibrary_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELibrary_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libSELibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSELibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libSELibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* SELibrary */ = {
+			isa = PBXGroup;
+			children = (
+				493C20B51104B04100C78E9B /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = SELibrary;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* SELibrary_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		493C20B51104B04100C78E9B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				493C20B91104B04100C78E9B /* network */,
+				493C20C21104B04100C78E9B /* ui */,
+				4944DA361105CECC007827D9 /* SELibrary.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		493C20B91104B04100C78E9B /* network */ = {
+			isa = PBXGroup;
+			children = (
+				493C20BA1104B04100C78E9B /* Reachability.h */,
+				493C20BB1104B04100C78E9B /* Reachability.m */,
+				493C20BC1104B04100C78E9B /* SEHTTPData.h */,
+				493C20BD1104B04100C78E9B /* SEHTTPData.m */,
+				493C20BE1104B04100C78E9B /* SEMutableURLRequest.h */,
+				493C20BF1104B04100C78E9B /* SEMutableURLRequest.m */,
+				493C20C01104B04100C78E9B /* SEURLDownload.h */,
+				493C20C11104B04100C78E9B /* SEURLDownload.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		493C20C21104B04100C78E9B /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				493C20EB1104B48400C78E9B /* SEWebViewBridge.h */,
+				493C20EC1104B48400C78E9B /* SEWebViewBridge.m */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* SELibrary_Prefix.pch in Headers */,
+				493C20C91104B04100C78E9B /* Reachability.h in Headers */,
+				493C20CB1104B04100C78E9B /* SEHTTPData.h in Headers */,
+				493C20CD1104B04100C78E9B /* SEMutableURLRequest.h in Headers */,
+				493C20CF1104B04100C78E9B /* SEURLDownload.h in Headers */,
+				493C20ED1104B48400C78E9B /* SEWebViewBridge.h in Headers */,
+				4944DA371105CECC007827D9 /* SELibrary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* SELibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SELibrary" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SELibrary;
+			productName = SELibrary;
+			productReference = D2AAC07E0554694100DB518D /* libSELibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "SELibrary" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* SELibrary */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* SELibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493C20CA1104B04100C78E9B /* Reachability.m in Sources */,
+				493C20CC1104B04100C78E9B /* SEHTTPData.m in Sources */,
+				493C20CE1104B04100C78E9B /* SEMutableURLRequest.m in Sources */,
+				493C20D01104B04100C78E9B /* SEURLDownload.m in Sources */,
+				493C20EE1104B48400C78E9B /* SEWebViewBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/SELibrary.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SELibrary_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = SELibrary;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SELibrary.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SELibrary_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = SELibrary;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SELibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "SELibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
