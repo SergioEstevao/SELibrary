@@ -65,6 +65,8 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 
 @class Reachability;
 
+/** A class to detect network status
+ */
 @interface Reachability : NSObject {
     
 @private
@@ -76,7 +78,7 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 	NSMutableDictionary *_reachabilityQueries;
 }
 
-/*
+/**
  An enumeration that defines the return values of the network state
  of the device.
  */
@@ -87,8 +89,8 @@ typedef enum {
 } NetworkStatus;
 
 
-// Set to YES to register for changes in network status. Otherwise reachability queries
-// will be handled synchronously.
+/// Set to YES to register for changes in network status. Otherwise reachability queries
+/// will be handled synchronously.
 @property BOOL networkStatusNotificationsEnabled;
 // The remote host whose reachability will be queried.
 // Either this or 'addressName' must be set.

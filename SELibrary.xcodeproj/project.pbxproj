@@ -6,6 +6,21 @@
 	objectVersion = 45;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FFFB6BD415B065E800E89568 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FFFB6BD715B065E800E89568 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				FFFB6BDB15B065F200E89568 /* ShellScript */,
+			);
+			dependencies = (
+				FFFB6BDA15B065EE00E89568 /* PBXTargetDependency */,
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		493C20C91104B04100C78E9B /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20BA1104B04100C78E9B /* Reachability.h */; };
 		493C20CA1104B04100C78E9B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20BB1104B04100C78E9B /* Reachability.m */; };
@@ -21,6 +36,16 @@
 		AA747D9F0F9514B9006C5449 /* SELibrary_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SELibrary_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFFB6BD915B065EE00E89568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = SELibrary;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		493C20BA1104B04100C78E9B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -175,9 +200,26 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* SELibrary */,
+				FFFB6BD415B065E800E89568 /* Documentation */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FFFB6BDB15B065F200E89568 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "appledoc \\\n--project-name SELibrary \\\n--project-company \"Sergio Estevao\" \\\n--company-id com.sergioestevao \\\n--docset-atom-filename \"SELibrary.atom\" \\\n--docset-feed-url \"http://localhost/help/${PROJECT}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"http://localhost/help/${PROJECT}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"http://localhost/help/${PROJECT}/\" \\\n--publish-docset \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--ignore \"*.m\" \\\n--index-desc \"${PROJECT_DIR}/README.md\" \\\n--exit-threshold 2 \\\n--output /Library/WebServer/Documents/help/${PROJECT} \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2AAC07B0554694100DB518D /* Sources */ = {
@@ -193,6 +235,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFFB6BDA15B065EE00E89568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* SELibrary */;
+			targetProxy = FFFB6BD915B065EE00E89568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
@@ -256,6 +306,20 @@
 			};
 			name = Release;
 		};
+		FFFB6BD515B065E800E89568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFFB6BD615B065E800E89568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -276,6 +340,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FFFB6BD715B065E800E89568 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFB6BD515B065E800E89568 /* Debug */,
+				FFFB6BD615B065E800E89568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

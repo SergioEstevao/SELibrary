@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-/*!
-    @class SEHTTPData 
-    @abstract 
+/** An helper class to represent HTTP parameters in POST or GET requests.
 */
 @interface SEHTTPData : NSObject {
 	NSString * filename;

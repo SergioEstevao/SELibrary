@@ -1,4 +1,4 @@
-SEiOSLibrary
+SELibrary
 ============
 
 Categories and Classes
