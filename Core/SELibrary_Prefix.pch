@@ -4,5 +4,7 @@
 
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
-    #import "./Classes/SELibrary.h"
+    #import <UIKit/UIKit.h>
+    //#import <CoreImage/CoreImage.h>
+    #import <ImageIO/ImageIO.h>
 #endif

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -22,19 +22,24 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		493C20C91104B04100C78E9B /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20BA1104B04100C78E9B /* Reachability.h */; };
-		493C20CA1104B04100C78E9B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20BB1104B04100C78E9B /* Reachability.m */; };
-		493C20CB1104B04100C78E9B /* SEHTTPData.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20BC1104B04100C78E9B /* SEHTTPData.h */; };
-		493C20CC1104B04100C78E9B /* SEHTTPData.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20BD1104B04100C78E9B /* SEHTTPData.m */; };
-		493C20CD1104B04100C78E9B /* SEMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20BE1104B04100C78E9B /* SEMutableURLRequest.h */; };
-		493C20CE1104B04100C78E9B /* SEMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20BF1104B04100C78E9B /* SEMutableURLRequest.m */; };
-		493C20CF1104B04100C78E9B /* SEURLDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20C01104B04100C78E9B /* SEURLDownload.h */; };
-		493C20D01104B04100C78E9B /* SEURLDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20C11104B04100C78E9B /* SEURLDownload.m */; };
-		493C20ED1104B48400C78E9B /* SEWebViewBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C20EB1104B48400C78E9B /* SEWebViewBridge.h */; };
-		493C20EE1104B48400C78E9B /* SEWebViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C20EC1104B48400C78E9B /* SEWebViewBridge.m */; };
-		4944DA371105CECC007827D9 /* SELibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4944DA361105CECC007827D9 /* SELibrary.h */; };
-		AA747D9F0F9514B9006C5449 /* SELibrary_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SELibrary_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		FF93CD73164DD33900C98D5D /* NSDate+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */; };
+		FF93CD74164DD33900C98D5D /* NSDate+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD66164DD33900C98D5D /* NSDate+SEAdditions.m */; };
+		FF93CD75164DD33900C98D5D /* NSString+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD67164DD33900C98D5D /* NSString+SEAdditions.h */; };
+		FF93CD76164DD33900C98D5D /* NSString+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD68164DD33900C98D5D /* NSString+SEAdditions.m */; };
+		FF93CD77164DD33900C98D5D /* NSThread+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD69164DD33900C98D5D /* NSThread+SEAdditions.m */; };
+		FF93CD79164DD33900C98D5D /* SELibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6B164DD33900C98D5D /* SELibrary.h */; };
+		FF93CD7A164DD33900C98D5D /* SELogging.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6C164DD33900C98D5D /* SELogging.h */; };
+		FF93CD7B164DD33900C98D5D /* UIColor+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6D164DD33900C98D5D /* UIColor+SEAdditions.h */; };
+		FF93CD7C164DD33900C98D5D /* UIColor+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD6E164DD33900C98D5D /* UIColor+SEAdditions.m */; };
+		FF93CD7D164DD33900C98D5D /* UIImage+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6F164DD33900C98D5D /* UIImage+SEAdditions.h */; };
+		FF93CD7E164DD33900C98D5D /* UIImage+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD70164DD33900C98D5D /* UIImage+SEAdditions.m */; };
+		FF93CD80164EE71D00C98D5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD7F164EE71D00C98D5D /* UIKit.framework */; };
+		FF93CD86164EE77A00C98D5D /* SELibrary_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD85164EE77A00C98D5D /* SELibrary_Prefix.pch */; };
+		FF93CD87164EE7CD00C98D5D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD81164EE74200C98D5D /* ImageIO.framework */; };
+		FF93CD89164EE81100C98D5D /* NSThread+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD88164EE81000C98D5D /* NSThread+SEAdditions.h */; };
+		FFE9E2F11658593E00778E21 /* SEAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */; };
+		FFE9E2F21658593E00778E21 /* SEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE9E2F01658593D00778E21 /* SEAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,20 +53,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		493C20BA1104B04100C78E9B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		493C20BB1104B04100C78E9B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		493C20BC1104B04100C78E9B /* SEHTTPData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEHTTPData.h; sourceTree = "<group>"; };
-		493C20BD1104B04100C78E9B /* SEHTTPData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEHTTPData.m; sourceTree = "<group>"; };
-		493C20BE1104B04100C78E9B /* SEMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMutableURLRequest.h; sourceTree = "<group>"; };
-		493C20BF1104B04100C78E9B /* SEMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMutableURLRequest.m; sourceTree = "<group>"; };
-		493C20C01104B04100C78E9B /* SEURLDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEURLDownload.h; sourceTree = "<group>"; };
-		493C20C11104B04100C78E9B /* SEURLDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEURLDownload.m; sourceTree = "<group>"; };
-		493C20EB1104B48400C78E9B /* SEWebViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEWebViewBridge.h; sourceTree = "<group>"; };
-		493C20EC1104B48400C78E9B /* SEWebViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEWebViewBridge.m; sourceTree = "<group>"; };
-		4944DA361105CECC007827D9 /* SELibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELibrary.h; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* SELibrary_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELibrary_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSELibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSELibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+SEAdditions.h"; path = "Core/Source/NSDate+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF93CD66164DD33900C98D5D /* NSDate+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SEAdditions.m"; path = "Core/Source/NSDate+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
+		FF93CD67164DD33900C98D5D /* NSString+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SEAdditions.h"; path = "Core/Source/NSString+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF93CD68164DD33900C98D5D /* NSString+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SEAdditions.m"; path = "Core/Source/NSString+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
+		FF93CD69164DD33900C98D5D /* NSThread+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSThread+SEAdditions.m"; path = "Core/Source/NSThread+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
+		FF93CD6B164DD33900C98D5D /* SELibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SELibrary.h; path = Core/Source/SELibrary.h; sourceTree = SOURCE_ROOT; };
+		FF93CD6C164DD33900C98D5D /* SELogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SELogging.h; path = Core/Source/SELogging.h; sourceTree = SOURCE_ROOT; };
+		FF93CD6D164DD33900C98D5D /* UIColor+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+SEAdditions.h"; path = "Core/Source/UIColor+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF93CD6E164DD33900C98D5D /* UIColor+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SEAdditions.m"; path = "Core/Source/UIColor+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
+		FF93CD6F164DD33900C98D5D /* UIImage+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+SEAdditions.h"; path = "Core/Source/UIImage+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF93CD70164DD33900C98D5D /* UIImage+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SEAdditions.m"; path = "Core/Source/UIImage+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
+		FF93CD7F164EE71D00C98D5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF93CD81164EE74200C98D5D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FF93CD85164EE77A00C98D5D /* SELibrary_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SELibrary_Prefix.pch; path = Core/SELibrary_Prefix.pch; sourceTree = "<group>"; };
+		FF93CD88164EE81000C98D5D /* NSThread+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSThread+SEAdditions.h"; path = "Core/Source/NSThread+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEAppDelegate.h; path = Core/Source/SEAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		FFE9E2F01658593D00778E21 /* SEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEAppDelegate.m; path = Core/Source/SEAppDelegate.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF93CD87164EE7CD00C98D5D /* ImageIO.framework in Frameworks */,
+				FF93CD80164EE71D00C98D5D /* UIKit.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +110,8 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF93CD81164EE74200C98D5D /* ImageIO.framework */,
+				FF93CD7F164EE71D00C98D5D /* UIKit.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -106,7 +120,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* SELibrary_Prefix.pch */,
+				FF93CD85164EE77A00C98D5D /* SELibrary_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -114,35 +128,22 @@
 		493C20B51104B04100C78E9B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				493C20B91104B04100C78E9B /* network */,
-				493C20C21104B04100C78E9B /* ui */,
-				4944DA361105CECC007827D9 /* SELibrary.h */,
+				FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */,
+				FFE9E2F01658593D00778E21 /* SEAppDelegate.m */,
+				FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */,
+				FF93CD66164DD33900C98D5D /* NSDate+SEAdditions.m */,
+				FF93CD67164DD33900C98D5D /* NSString+SEAdditions.h */,
+				FF93CD68164DD33900C98D5D /* NSString+SEAdditions.m */,
+				FF93CD88164EE81000C98D5D /* NSThread+SEAdditions.h */,
+				FF93CD69164DD33900C98D5D /* NSThread+SEAdditions.m */,
+				FF93CD6B164DD33900C98D5D /* SELibrary.h */,
+				FF93CD6C164DD33900C98D5D /* SELogging.h */,
+				FF93CD6D164DD33900C98D5D /* UIColor+SEAdditions.h */,
+				FF93CD6E164DD33900C98D5D /* UIColor+SEAdditions.m */,
+				FF93CD6F164DD33900C98D5D /* UIImage+SEAdditions.h */,
+				FF93CD70164DD33900C98D5D /* UIImage+SEAdditions.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		493C20B91104B04100C78E9B /* network */ = {
-			isa = PBXGroup;
-			children = (
-				493C20BA1104B04100C78E9B /* Reachability.h */,
-				493C20BB1104B04100C78E9B /* Reachability.m */,
-				493C20BC1104B04100C78E9B /* SEHTTPData.h */,
-				493C20BD1104B04100C78E9B /* SEHTTPData.m */,
-				493C20BE1104B04100C78E9B /* SEMutableURLRequest.h */,
-				493C20BF1104B04100C78E9B /* SEMutableURLRequest.m */,
-				493C20C01104B04100C78E9B /* SEURLDownload.h */,
-				493C20C11104B04100C78E9B /* SEURLDownload.m */,
-			);
-			path = network;
-			sourceTree = "<group>";
-		};
-		493C20C21104B04100C78E9B /* ui */ = {
-			isa = PBXGroup;
-			children = (
-				493C20EB1104B48400C78E9B /* SEWebViewBridge.h */,
-				493C20EC1104B48400C78E9B /* SEWebViewBridge.m */,
-			);
-			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,13 +153,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* SELibrary_Prefix.pch in Headers */,
-				493C20C91104B04100C78E9B /* Reachability.h in Headers */,
-				493C20CB1104B04100C78E9B /* SEHTTPData.h in Headers */,
-				493C20CD1104B04100C78E9B /* SEMutableURLRequest.h in Headers */,
-				493C20CF1104B04100C78E9B /* SEURLDownload.h in Headers */,
-				493C20ED1104B48400C78E9B /* SEWebViewBridge.h in Headers */,
-				4944DA371105CECC007827D9 /* SELibrary.h in Headers */,
+				FF93CD73164DD33900C98D5D /* NSDate+SEAdditions.h in Headers */,
+				FF93CD75164DD33900C98D5D /* NSString+SEAdditions.h in Headers */,
+				FF93CD79164DD33900C98D5D /* SELibrary.h in Headers */,
+				FF93CD7A164DD33900C98D5D /* SELogging.h in Headers */,
+				FF93CD7B164DD33900C98D5D /* UIColor+SEAdditions.h in Headers */,
+				FF93CD7D164DD33900C98D5D /* UIImage+SEAdditions.h in Headers */,
+				FF93CD86164EE77A00C98D5D /* SELibrary_Prefix.pch in Headers */,
+				FF93CD89164EE81100C98D5D /* NSThread+SEAdditions.h in Headers */,
+				FFE9E2F11658593E00778E21 /* SEAppDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +190,11 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "SELibrary" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -226,11 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493C20CA1104B04100C78E9B /* Reachability.m in Sources */,
-				493C20CC1104B04100C78E9B /* SEHTTPData.m in Sources */,
-				493C20CE1104B04100C78E9B /* SEMutableURLRequest.m in Sources */,
-				493C20D01104B04100C78E9B /* SEURLDownload.m in Sources */,
-				493C20EE1104B48400C78E9B /* SEWebViewBridge.m in Sources */,
+				FF93CD74164DD33900C98D5D /* NSDate+SEAdditions.m in Sources */,
+				FF93CD76164DD33900C98D5D /* NSString+SEAdditions.m in Sources */,
+				FF93CD77164DD33900C98D5D /* NSThread+SEAdditions.m in Sources */,
+				FF93CD7C164DD33900C98D5D /* UIColor+SEAdditions.m in Sources */,
+				FF93CD7E164DD33900C98D5D /* UIImage+SEAdditions.m in Sources */,
+				FFE9E2F21658593E00778E21 /* SEAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +257,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/SELibrary.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SELibrary_Prefix.pch;
+				GCC_PREFIX_HEADER = Core/SELibrary_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = SELibrary;
 			};
@@ -268,10 +275,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/SELibrary.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SELibrary_Prefix.pch;
+				GCC_PREFIX_HEADER = Core/SELibrary_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = SELibrary;
 			};
@@ -287,7 +295,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -301,7 +308,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -348,6 +354,7 @@
 				FFFB6BD615B065E800E89568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
