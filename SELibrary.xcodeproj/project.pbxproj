@@ -55,6 +55,7 @@
 /* Begin PBXFileReference section */
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSELibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSELibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF89C66F16964B1E0023F9EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+SEAdditions.h"; path = "Core/Source/NSDate+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
 		FF93CD66164DD33900C98D5D /* NSDate+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SEAdditions.m"; path = "Core/Source/NSDate+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
 		FF93CD67164DD33900C98D5D /* NSString+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SEAdditions.h"; path = "Core/Source/NSString+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
@@ -99,6 +100,7 @@
 		0867D691FE84028FC02AAC07 /* SELibrary */ = {
 			isa = PBXGroup;
 			children = (
+				FF89C66F16964B1E0023F9EA /* README.md */,
 				493C20B51104B04100C78E9B /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
