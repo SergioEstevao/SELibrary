@@ -28,10 +28,9 @@
 
 - (void)test_dateWithDaysSinceNow
 {
-    NSDate* date1 = [NSDate dateWithTimeIntervalSinceNow:60*60*24];
+    NSDate* date1 = [NSDate dateWithTimeIntervalSinceNow:Day];
     NSDate* date2 = [NSDate dateWithDaysSinceNow:1];
-    STAssertTrue([date1 timeIntervalSinceDate:date2] < 60, @"Comparing dates to see if they are equal");
-    //STFail(@"Unit tests are not implemented yet in UnitTest");
+    STAssertTrue([date1 timeIntervalSinceDate:date2] < Minute, @"Comparing dates to see if they are equal");
 }
 
 @end

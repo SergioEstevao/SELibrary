@@ -9,9 +9,11 @@
 #import "NSDate+SEAdditions.h"
 
 
-NSTimeInterval const Day = 60 * 60 * 24;
-NSTimeInterval const Hour = 60 * 60;
 NSTimeInterval const Minute = 60;
+NSTimeInterval const Hour = 60 * Minute;
+NSTimeInterval const Day = Hour * 24;
+
+
 
 @implementation NSDate (SEAdditions)
 
