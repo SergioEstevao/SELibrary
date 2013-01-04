@@ -23,4 +23,9 @@
  */
 + (UIColor*)colorWithRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue;
 
+/**
+ Return a string hexadecimal representation of this NSColor. Splits the color into components with CGColor methods, re-maps them from percentages in the range 0-255, and returns the RGB color (alpha is stripped) in a six character string.
+ @returns A CSS hexadecimal NSString specifying this NSColor.
+ */
+- (NSString *)htmlHexString;
 @end
