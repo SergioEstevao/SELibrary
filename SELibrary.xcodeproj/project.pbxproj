@@ -225,7 +225,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "appledoc \\\n--project-name SELibrary \\\n--project-company \"Sergio Estevao\" \\\n--company-id com.sergioestevao \\\n--docset-atom-filename \"SELibrary.atom\" \\\n--docset-feed-url \"http://localhost/help/${PROJECT}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"http://localhost/help/${PROJECT}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"http://localhost/help/${PROJECT}/\" \\\n--publish-docset \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--ignore \"*.m\" \\\n--index-desc \"${PROJECT_DIR}/README.md\" \\\n--exit-threshold 2 \\\n--output /Library/WebServer/Documents/help/${PROJECT} \\\n\"${PROJECT_DIR}\"";
+			shellScript = "appledoc \\\n--project-name ${PROJECT} \\\n--project-company \"Sergio Estevao\" \\\n--company-id com.sergioestevao \\\n--docset-atom-filename \"${PROJECT}.atom\" \\\n--docset-feed-url \"http://localhost/help/${PROJECT}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"http://localhost/help/${PROJECT}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"http://localhost/help/${PROJECT}/\" \\\n--publish-docset \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--ignore \"*.m\" \\\n--index-desc \"${PROJECT_DIR}/README.md\" \\\n--exit-threshold 2 \\\n--output /Library/WebServer/Documents/help/${PROJECT} \\\n\"${PROJECT_DIR}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 

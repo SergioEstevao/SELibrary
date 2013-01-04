@@ -17,4 +17,8 @@ Other classes simplify common tasks
 
  - SELogging - common logging and assert macros that are enable/disable in DEBUG/RELEASE builds
  - SEAppDelegate - app delegate implementation using a "service" approach.
- 
+
+Documentation
+-------------
+
+Documentation is being generated using the AppleDoc tool. If you build the Documentation target it will automatic added the information to your XCode documentation library. 
