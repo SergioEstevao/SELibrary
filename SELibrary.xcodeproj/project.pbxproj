@@ -23,6 +23,9 @@
 
 /* Begin PBXBuildFile section */
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		FF1AB7A1169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */; };
+		FF1AB7A2169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */; };
+		FF1AB7A6169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7A5169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m */; };
 		FF89C67C1696E4780023F9EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89C67B1696E4780023F9EA /* SenTestingKit.framework */; };
 		FF89C67D1696E4780023F9EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD7F164EE71D00C98D5D /* UIKit.framework */; };
 		FF89C67E1696E4780023F9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -75,6 +78,10 @@
 /* Begin PBXFileReference section */
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSELibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSELibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+SEAdditions.h"; path = "Core/Source/NSDateFormatter+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+SEAdditions.m"; path = "Core/Source/NSDateFormatter+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
+		FF1AB7A4169B8F29004A5B5D /* NSDateFormatter+SEAdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+SEAdditionsTest.h"; sourceTree = "<group>"; };
+		FF1AB7A5169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+SEAdditionsTest.m"; sourceTree = "<group>"; };
 		FF89C66F16964B1E0023F9EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		FF89C67A1696E4780023F9EA /* UnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF89C67B1696E4780023F9EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -198,6 +205,8 @@
 				FF93CD6E164DD33900C98D5D /* UIColor+SEAdditions.m */,
 				FF93CD6F164DD33900C98D5D /* UIImage+SEAdditions.h */,
 				FF93CD70164DD33900C98D5D /* UIImage+SEAdditions.m */,
+				FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */,
+				FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -230,6 +239,8 @@
 				FF89C6911696E5310023F9EA /* NSString+SEAdditionsTest.m */,
 				FF89C6921696E5310023F9EA /* UIColor+SEAdditionsTest.h */,
 				FF89C6931696E5310023F9EA /* UIColor+SEAdditionsTest.m */,
+				FF1AB7A4169B8F29004A5B5D /* NSDateFormatter+SEAdditionsTest.h */,
+				FF1AB7A5169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -250,6 +261,7 @@
 				FF93CD86164EE77A00C98D5D /* SELibrary_Prefix.pch in Headers */,
 				FF93CD89164EE81100C98D5D /* NSThread+SEAdditions.h in Headers */,
 				FFE9E2F11658593E00778E21 /* SEAppDelegate.h in Headers */,
+				FF1AB7A1169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +382,7 @@
 				FF93CD7C164DD33900C98D5D /* UIColor+SEAdditions.m in Sources */,
 				FF93CD7E164DD33900C98D5D /* UIImage+SEAdditions.m in Sources */,
 				FFE9E2F21658593E00778E21 /* SEAppDelegate.m in Sources */,
+				FF1AB7A2169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +393,7 @@
 				FF89C6941696E5310023F9EA /* NSDate+SEAdditionsTest.m in Sources */,
 				FF89C6951696E5310023F9EA /* NSString+SEAdditionsTest.m in Sources */,
 				FF89C6961696E5310023F9EA /* UIColor+SEAdditionsTest.m in Sources */,
+				FF1AB7A6169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +584,7 @@
 				FF89C68B1696E4780023F9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFFB6BD715B065E800E89568 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
 			isa = XCConfigurationList;
