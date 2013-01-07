@@ -26,6 +26,23 @@
 		FF1AB7A1169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */; };
 		FF1AB7A2169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */; };
 		FF1AB7A6169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7A5169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m */; };
+		FF1AB7B5169B91E5004A5B5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF1AB7B3169B91E5004A5B5D /* InfoPlist.strings */; };
+		FF1AB7BA169B9222004A5B5D /* SEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE9E2F01658593D00778E21 /* SEAppDelegate.m */; };
+		FF1AB7BB169B9222004A5B5D /* NSDate+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD66164DD33900C98D5D /* NSDate+SEAdditions.m */; };
+		FF1AB7BC169B9222004A5B5D /* NSString+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD68164DD33900C98D5D /* NSString+SEAdditions.m */; };
+		FF1AB7BD169B9222004A5B5D /* NSThread+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD69164DD33900C98D5D /* NSThread+SEAdditions.m */; };
+		FF1AB7BE169B9222004A5B5D /* UIColor+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD6E164DD33900C98D5D /* UIColor+SEAdditions.m */; };
+		FF1AB7BF169B9222004A5B5D /* UIImage+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD70164DD33900C98D5D /* UIImage+SEAdditions.m */; };
+		FF1AB7C0169B9222004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */; };
+		FF1AB7C1169B9255004A5B5D /* SEAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */; };
+		FF1AB7C2169B9255004A5B5D /* NSDate+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */; };
+		FF1AB7C3169B9255004A5B5D /* NSString+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD67164DD33900C98D5D /* NSString+SEAdditions.h */; };
+		FF1AB7C4169B9255004A5B5D /* NSThread+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD88164EE81000C98D5D /* NSThread+SEAdditions.h */; };
+		FF1AB7C5169B9255004A5B5D /* SELibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6B164DD33900C98D5D /* SELibrary.h */; };
+		FF1AB7C6169B9255004A5B5D /* SELogging.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6C164DD33900C98D5D /* SELogging.h */; };
+		FF1AB7C7169B9255004A5B5D /* UIColor+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6D164DD33900C98D5D /* UIColor+SEAdditions.h */; };
+		FF1AB7C8169B9255004A5B5D /* UIImage+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6F164DD33900C98D5D /* UIImage+SEAdditions.h */; };
+		FF1AB7C9169B9255004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */; };
 		FF89C67C1696E4780023F9EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89C67B1696E4780023F9EA /* SenTestingKit.framework */; };
 		FF89C67D1696E4780023F9EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD7F164EE71D00C98D5D /* UIKit.framework */; };
 		FF89C67E1696E4780023F9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -82,6 +99,9 @@
 		FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+SEAdditions.m"; path = "Core/Source/NSDateFormatter+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
 		FF1AB7A4169B8F29004A5B5D /* NSDateFormatter+SEAdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+SEAdditionsTest.h"; sourceTree = "<group>"; };
 		FF1AB7A5169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+SEAdditionsTest.m"; sourceTree = "<group>"; };
+		FF1AB7AF169B91E5004A5B5D /* SELibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SELibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1AB7B2169B91E5004A5B5D /* Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Framework-Info.plist"; sourceTree = "<group>"; };
+		FF1AB7B4169B91E5004A5B5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF89C66F16964B1E0023F9EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		FF89C67A1696E4780023F9EA /* UnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF89C67B1696E4780023F9EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -128,6 +148,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF1AB7A9169B91E5004A5B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF89C6761696E4780023F9EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +177,7 @@
 			children = (
 				D2AAC07E0554694100DB518D /* libSELibrary.a */,
 				FF89C67A1696E4780023F9EA /* UnitTest.octest */,
+				FF1AB7AF169B91E5004A5B5D /* SELibrary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,9 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				FF89C66F16964B1E0023F9EA /* README.md */,
-				493C20B51104B04100C78E9B /* Classes */,
-				32C88DFF0371C24200C91783 /* Other Sources */,
+				FF1AB7CA169B942C004A5B5D /* Core */,
 				FF89C67F1696E4780023F9EA /* UnitTest */,
+				FF1AB7B0169B91E5004A5B5D /* Framework */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
@@ -171,24 +199,24 @@
 			isa = PBXGroup;
 			children = (
 				FF89C6A11696EA2C0023F9EA /* CoreGraphics.framework */,
-				FF89C69E1696E9AD0023F9EA /* QuartzCore.framework */,
-				FF93CD81164EE74200C98D5D /* ImageIO.framework */,
-				FF93CD7F164EE71D00C98D5D /* UIKit.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				FF93CD81164EE74200C98D5D /* ImageIO.framework */,
+				FF89C69E1696E9AD0023F9EA /* QuartzCore.framework */,
 				FF89C67B1696E4780023F9EA /* SenTestingKit.framework */,
+				FF93CD7F164EE71D00C98D5D /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		32C88DFF0371C24200C91783 /* Other Sources */ = {
+		32C88DFF0371C24200C91783 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				FF93CD85164EE77A00C98D5D /* SELibrary_Prefix.pch */,
 			);
-			name = "Other Sources";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		493C20B51104B04100C78E9B /* Classes */ = {
+		493C20B51104B04100C78E9B /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */,
@@ -208,7 +236,34 @@
 				FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */,
 				FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */,
 			);
+			name = Source;
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF1AB7B0169B91E5004A5B5D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FF1AB7B1169B91E5004A5B5D /* Supporting Files */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		FF1AB7B1169B91E5004A5B5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1AB7B2169B91E5004A5B5D /* Framework-Info.plist */,
+				FF1AB7B3169B91E5004A5B5D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF1AB7CA169B942C004A5B5D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				493C20B51104B04100C78E9B /* Source */,
+				32C88DFF0371C24200C91783 /* Supporting Files */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		FF89C67F1696E4780023F9EA /* UnitTest */ = {
@@ -265,6 +320,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF1AB7AA169B91E5004A5B5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1AB7C1169B9255004A5B5D /* SEAppDelegate.h in Headers */,
+				FF1AB7C2169B9255004A5B5D /* NSDate+SEAdditions.h in Headers */,
+				FF1AB7C3169B9255004A5B5D /* NSString+SEAdditions.h in Headers */,
+				FF1AB7C4169B9255004A5B5D /* NSThread+SEAdditions.h in Headers */,
+				FF1AB7C5169B9255004A5B5D /* SELibrary.h in Headers */,
+				FF1AB7C6169B9255004A5B5D /* SELogging.h in Headers */,
+				FF1AB7C7169B9255004A5B5D /* UIColor+SEAdditions.h in Headers */,
+				FF1AB7C8169B9255004A5B5D /* UIImage+SEAdditions.h in Headers */,
+				FF1AB7C9169B9255004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -284,6 +355,27 @@
 			productName = SELibrary;
 			productReference = D2AAC07E0554694100DB518D /* libSELibrary.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		FF1AB7AE169B91E5004A5B5D /* Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1AB7B7169B91E5004A5B5D /* Build configuration list for PBXNativeTarget "Framework" */;
+			buildPhases = (
+				FF1AB7A7169B91E5004A5B5D /* ShellScript */,
+				FF1AB7A8169B91E5004A5B5D /* Sources */,
+				FF1AB7A9169B91E5004A5B5D /* Frameworks */,
+				FF1AB7AA169B91E5004A5B5D /* Headers */,
+				FF1AB7AB169B91E5004A5B5D /* Resources */,
+				FF1AB7AC169B91E5004A5B5D /* ShellScript */,
+				FF1AB7AD169B91E5004A5B5D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = Framework;
+			productReference = FF1AB7AF169B91E5004A5B5D /* SELibrary.framework */;
+			productType = "com.apple.product-type.bundle";
 		};
 		FF89C6791696E4780023F9EA /* UnitTest */ = {
 			isa = PBXNativeTarget;
@@ -327,11 +419,20 @@
 				D2AAC07D0554694100DB518D /* SELibrary */,
 				FFFB6BD415B065E800E89568 /* Documentation */,
 				FF89C6791696E4780023F9EA /* UnitTest */,
+				FF1AB7AE169B91E5004A5B5D /* Framework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FF1AB7AB169B91E5004A5B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1AB7B5169B91E5004A5B5D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF89C6771696E4780023F9EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +444,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		FF1AB7A7169B91E5004A5B5D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
+		};
+		FF1AB7AC169B91E5004A5B5D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		FF1AB7AD169B91E5004A5B5D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\necho \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build framework structure\n\necho \"Build symlinks\"\n\necho ln -sfh A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\nln -sfh A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\necho ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\necho ln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\nln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\necho ln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\nln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\n\n\n# Link to binary for unit tests\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework\"\nln -sfh \"../${WRAPPER_NAME}/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework/.fake_fw_testing\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
+		};
 		FF89C6781696E4780023F9EA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,7 +507,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "appledoc \\\n--project-name ${PROJECT} \\\n--project-company \"Sergio Estevao\" \\\n--company-id com.sergioestevao \\\n--docset-atom-filename \"${PROJECT}.atom\" \\\n--docset-feed-url \"http://localhost/help/${PROJECT}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"http://localhost/help/${PROJECT}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"http://localhost/help/${PROJECT}/\" \\\n--publish-docset \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--ignore \"*.m\" \\\n--index-desc \"${PROJECT_DIR}/README.md\" \\\n--exit-threshold 2 \\\n--output /Library/WebServer/Documents/help/${PROJECT} \\\n\"${PROJECT_DIR}\"";
+			shellScript = "appledoc \\\n--project-name ${PROJECT} \\\n--project-company \"Sergio Estevao\" \\\n--company-id com.sergioestevao \\\n--docset-atom-filename \"${PROJECT}.atom\" \\\n--docset-feed-url \"http://localhost/help/${PROJECT}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"http://localhost/help/${PROJECT}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"http://localhost/help/${PROJECT}/\" \\\n--publish-docset \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--ignore \"*.m\" \\\n--index-desc \"${PROJECT_DIR}/README.md\" \\\n--exit-threshold 2 \\\n--output /Library/WebServer/Documents/help/${PROJECT} \\\n\"${PROJECT_DIR}/Core\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -383,6 +523,20 @@
 				FF93CD7E164DD33900C98D5D /* UIImage+SEAdditions.m in Sources */,
 				FFE9E2F21658593E00778E21 /* SEAppDelegate.m in Sources */,
 				FF1AB7A2169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1AB7A8169B91E5004A5B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1AB7BA169B9222004A5B5D /* SEAppDelegate.m in Sources */,
+				FF1AB7BB169B9222004A5B5D /* NSDate+SEAdditions.m in Sources */,
+				FF1AB7BC169B9222004A5B5D /* NSString+SEAdditions.m in Sources */,
+				FF1AB7BD169B9222004A5B5D /* NSThread+SEAdditions.m in Sources */,
+				FF1AB7BE169B9222004A5B5D /* UIColor+SEAdditions.m in Sources */,
+				FF1AB7BF169B9222004A5B5D /* UIImage+SEAdditions.m in Sources */,
+				FF1AB7C0169B9222004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +567,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FF1AB7B3169B91E5004A5B5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1AB7B4169B91E5004A5B5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		FF89C6821696E4780023F9EA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -481,6 +643,79 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FF1AB7B8169B91E5004A5B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Core/SELibrary_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Framework/Framework-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		FF1AB7B9169B91E5004A5B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Core/SELibrary_Prefix.pch;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Framework/Framework-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -576,6 +811,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FF1AB7B7169B91E5004A5B5D /* Build configuration list for PBXNativeTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1AB7B8169B91E5004A5B5D /* Debug */,
+				FF1AB7B9169B91E5004A5B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		FF89C6891696E4780023F9EA /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
 			isa = XCConfigurationList;

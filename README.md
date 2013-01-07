@@ -22,3 +22,17 @@ Documentation
 -------------
 
 Documentation is being generated using the AppleDoc tool. If you build the Documentation target it will automatic added the information to your XCode documentation library. 
+
+Usage
+-----
+
+The SELibrary.framework is using the "Fake Framework" template put together by [Karl Stenerud](https://github.com/kstenerud/iOS-Universal-Framework). If your app does not use ARC yet (but SELibrary does) then you also need the -fobjc-arc linker flag.
+
+1. Include the SELibrary in your project.
+2. Import the SELibrary in your PCH file or include the individual header files where needed.
+3. Add -ObjC to "Other Linker Flags".
+4. In your application target's Build Phases: Link Binary With Libraries phase add the following:
+   - CoreGraphics.framework
+   - ImageIO.framework
+   - QuartzCore.framework
+   - SystemConfiguration.framework
