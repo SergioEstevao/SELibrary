@@ -11,7 +11,7 @@
 
 @implementation NSString_SEAdditionsTest
 
-- (void) test_tsd_toMD5String{
+- (void) test_toMD5String{
     STAssertEqualObjects([@"" toMD5String],@"D41D8CD98F00B204E9800998ECF8427E", @"Test against an empty string");
         
     STAssertEqualObjects([@" " toMD5String],@"7215EE9C7D9DC229D2921A40E899EC5F", @"Test against a whitespace string");
@@ -22,7 +22,7 @@
     STAssertNil([nilString toMD5String], @"Test against a nil string");
 }
 
-- (void) test_tsd_isEmpty{
+- (void) test_isEmpty{
     STAssertTrue([@"" isEmpty], @"Test against an empty string");
     
     STAssertFalse([@" " isEmpty], @"Test against an whitespace string");
@@ -33,7 +33,7 @@
     STAssertFalse([nilString isEmpty], @"Test against a nil string");
 }
 
-- (void) test_tsd_isNullOrEmpty{
+- (void) test_isNullOrEmpty{
     STAssertTrue([NSString isNullOrEmpty:@""], @"Test against an empty string");
     
     STAssertFalse([NSString isNullOrEmpty:@" "], @"Test against a whitespace string");
@@ -45,7 +45,7 @@
 
 }
 
-- (void) test_tsd_isNullOrWhiteSpaces{
+- (void) test_isNullOrWhiteSpaces{
     STAssertTrue([NSString isNullOrWhiteSpaces:@""], @"Test against an empty string");
     
     STAssertTrue([NSString isNullOrWhiteSpaces:@" "], @"Test against a whitespace string");
