@@ -15,4 +15,5 @@
 #import "NSThread+SEAdditions.h"
 #import "NSDateFormatter+SEAdditions.h"
 #import "SETableViewCell.h"
+#import "SEBorderView.h"
 
