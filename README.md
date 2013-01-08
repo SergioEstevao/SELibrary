@@ -17,6 +17,7 @@ Other classes simplify common tasks
 
  - SELogging - common logging and assert macros that are enable/disable in DEBUG/RELEASE builds
  - SEAppDelegate - app delegate implementation using a "service" approach.
+ - SETableViewCell - comon code to loading tableviewcell from nib files.
 
 Documentation
 -------------

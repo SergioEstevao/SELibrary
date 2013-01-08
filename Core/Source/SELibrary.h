@@ -14,4 +14,5 @@
 #import "UIColor+SEAdditions.h"
 #import "NSThread+SEAdditions.h"
 #import "NSDateFormatter+SEAdditions.h"
+#import "SETableViewCell.h"
 

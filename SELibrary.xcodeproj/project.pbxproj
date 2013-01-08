@@ -34,15 +34,19 @@
 		FF1AB7BE169B9222004A5B5D /* UIColor+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD6E164DD33900C98D5D /* UIColor+SEAdditions.m */; };
 		FF1AB7BF169B9222004A5B5D /* UIImage+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD70164DD33900C98D5D /* UIImage+SEAdditions.m */; };
 		FF1AB7C0169B9222004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */; };
-		FF1AB7C1169B9255004A5B5D /* SEAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */; };
-		FF1AB7C2169B9255004A5B5D /* NSDate+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */; };
-		FF1AB7C3169B9255004A5B5D /* NSString+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD67164DD33900C98D5D /* NSString+SEAdditions.h */; };
-		FF1AB7C4169B9255004A5B5D /* NSThread+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD88164EE81000C98D5D /* NSThread+SEAdditions.h */; };
-		FF1AB7C5169B9255004A5B5D /* SELibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6B164DD33900C98D5D /* SELibrary.h */; };
-		FF1AB7C6169B9255004A5B5D /* SELogging.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6C164DD33900C98D5D /* SELogging.h */; };
-		FF1AB7C7169B9255004A5B5D /* UIColor+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6D164DD33900C98D5D /* UIColor+SEAdditions.h */; };
-		FF1AB7C8169B9255004A5B5D /* UIImage+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6F164DD33900C98D5D /* UIImage+SEAdditions.h */; };
-		FF1AB7C9169B9255004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */; };
+		FF1AB7C1169B9255004A5B5D /* SEAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7C2169B9255004A5B5D /* NSDate+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7C3169B9255004A5B5D /* NSString+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD67164DD33900C98D5D /* NSString+SEAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7C4169B9255004A5B5D /* NSThread+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD88164EE81000C98D5D /* NSThread+SEAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7C5169B9255004A5B5D /* SELibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6B164DD33900C98D5D /* SELibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7C6169B9255004A5B5D /* SELogging.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6C164DD33900C98D5D /* SELogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7C7169B9255004A5B5D /* UIColor+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6D164DD33900C98D5D /* UIColor+SEAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7C8169B9255004A5B5D /* UIImage+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD6F164DD33900C98D5D /* UIImage+SEAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7C9169B9255004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7CD169C1857004A5B5D /* SETableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1AB7CB169C1857004A5B5D /* SETableViewCell.h */; };
+		FF1AB7CE169C1857004A5B5D /* SETableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1AB7CB169C1857004A5B5D /* SETableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1AB7CF169C1857004A5B5D /* SETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7CC169C1857004A5B5D /* SETableViewCell.m */; };
+		FF1AB7D0169C1857004A5B5D /* SETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7CC169C1857004A5B5D /* SETableViewCell.m */; };
 		FF89C67C1696E4780023F9EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89C67B1696E4780023F9EA /* SenTestingKit.framework */; };
 		FF89C67D1696E4780023F9EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD7F164EE71D00C98D5D /* UIKit.framework */; };
 		FF89C67E1696E4780023F9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -102,6 +106,8 @@
 		FF1AB7AF169B91E5004A5B5D /* SELibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SELibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1AB7B2169B91E5004A5B5D /* Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Framework-Info.plist"; sourceTree = "<group>"; };
 		FF1AB7B4169B91E5004A5B5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF1AB7CB169C1857004A5B5D /* SETableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SETableViewCell.h; path = Core/Source/SETableViewCell.h; sourceTree = SOURCE_ROOT; };
+		FF1AB7CC169C1857004A5B5D /* SETableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SETableViewCell.m; path = Core/Source/SETableViewCell.m; sourceTree = SOURCE_ROOT; };
 		FF89C66F16964B1E0023F9EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		FF89C67A1696E4780023F9EA /* UnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF89C67B1696E4780023F9EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -235,6 +241,8 @@
 				FF93CD70164DD33900C98D5D /* UIImage+SEAdditions.m */,
 				FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */,
 				FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */,
+				FF1AB7CB169C1857004A5B5D /* SETableViewCell.h */,
+				FF1AB7CC169C1857004A5B5D /* SETableViewCell.m */,
 			);
 			name = Source;
 			path = Classes;
@@ -317,6 +325,7 @@
 				FF93CD89164EE81100C98D5D /* NSThread+SEAdditions.h in Headers */,
 				FFE9E2F11658593E00778E21 /* SEAppDelegate.h in Headers */,
 				FF1AB7A1169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */,
+				FF1AB7CD169C1857004A5B5D /* SETableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +342,7 @@
 				FF1AB7C7169B9255004A5B5D /* UIColor+SEAdditions.h in Headers */,
 				FF1AB7C8169B9255004A5B5D /* UIImage+SEAdditions.h in Headers */,
 				FF1AB7C9169B9255004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */,
+				FF1AB7CE169C1857004A5B5D /* SETableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +533,7 @@
 				FF93CD7E164DD33900C98D5D /* UIImage+SEAdditions.m in Sources */,
 				FFE9E2F21658593E00778E21 /* SEAppDelegate.m in Sources */,
 				FF1AB7A2169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */,
+				FF1AB7CF169C1857004A5B5D /* SETableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +548,7 @@
 				FF1AB7BE169B9222004A5B5D /* UIColor+SEAdditions.m in Sources */,
 				FF1AB7BF169B9222004A5B5D /* UIImage+SEAdditions.m in Sources */,
 				FF1AB7C0169B9222004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */,
+				FF1AB7D0169C1857004A5B5D /* SETableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
