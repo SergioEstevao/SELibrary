@@ -18,11 +18,6 @@ extern CGSize const CGSizeUnknow;
  */
 + (CGSize) sizeOfImageInURL:(NSURL*)imageFileURL;
 
-/** Check if the size of an image reading from `imageFileURL'is valid.
-  @param imageFileURL URL of image to check
- */
-+ (BOOL) hasImageValidSize:(NSURL*)imageFileURL;
-
 /*! Check if the 'imageFileURL' is an valid image file.
   @param imageFileURL URL of image to check
  */

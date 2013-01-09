@@ -51,6 +51,9 @@
 		FF1AB7D4169C1DA1004A5B5D /* SEBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1AB7D1169C1DA0004A5B5D /* SEBorderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF1AB7D5169C1DA1004A5B5D /* SEBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7D2169C1DA0004A5B5D /* SEBorderView.m */; };
 		FF1AB7D6169C1DA1004A5B5D /* SEBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7D2169C1DA0004A5B5D /* SEBorderView.m */; };
+		FF1AB7D9169CE5E1004A5B5D /* Sergio.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FF1AB7D8169CE5E1004A5B5D /* Sergio.jpeg */; };
+		FF1AB7DC169CE621004A5B5D /* UIImage+SEAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7DB169CE620004A5B5D /* UIImage+SEAdditionsTest.m */; };
+		FF1AB7DE169CEA0A004A5B5D /* fake.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AB7DD169CEA0A004A5B5D /* fake.png */; };
 		FF89C67C1696E4780023F9EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89C67B1696E4780023F9EA /* SenTestingKit.framework */; };
 		FF89C67D1696E4780023F9EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD7F164EE71D00C98D5D /* UIKit.framework */; };
 		FF89C67E1696E4780023F9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -114,6 +117,10 @@
 		FF1AB7CC169C1857004A5B5D /* SETableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SETableViewCell.m; path = Core/Source/SETableViewCell.m; sourceTree = SOURCE_ROOT; };
 		FF1AB7D1169C1DA0004A5B5D /* SEBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEBorderView.h; path = Core/Source/SEBorderView.h; sourceTree = SOURCE_ROOT; };
 		FF1AB7D2169C1DA0004A5B5D /* SEBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEBorderView.m; path = Core/Source/SEBorderView.m; sourceTree = SOURCE_ROOT; };
+		FF1AB7D8169CE5E1004A5B5D /* Sergio.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sergio.jpeg; sourceTree = "<group>"; };
+		FF1AB7DA169CE620004A5B5D /* UIImage+SEAdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SEAdditionsTest.h"; sourceTree = "<group>"; };
+		FF1AB7DB169CE620004A5B5D /* UIImage+SEAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SEAdditionsTest.m"; sourceTree = "<group>"; };
+		FF1AB7DD169CEA0A004A5B5D /* fake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fake.png; sourceTree = "<group>"; };
 		FF89C66F16964B1E0023F9EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		FF89C67A1696E4780023F9EA /* UnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF89C67B1696E4780023F9EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -282,9 +289,19 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		FF1AB7D7169CE5E1004A5B5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF1AB7DD169CEA0A004A5B5D /* fake.png */,
+				FF1AB7D8169CE5E1004A5B5D /* Sergio.jpeg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FF89C67F1696E4780023F9EA /* UnitTest */ = {
 			isa = PBXGroup;
 			children = (
+				FF1AB7D7169CE5E1004A5B5D /* Resources */,
 				FF89C68D1696E5310023F9EA /* Source */,
 				FF89C6801696E4780023F9EA /* Supporting Files */,
 			);
@@ -312,6 +329,8 @@
 				FF89C6931696E5310023F9EA /* UIColor+SEAdditionsTest.m */,
 				FF1AB7A4169B8F29004A5B5D /* NSDateFormatter+SEAdditionsTest.h */,
 				FF1AB7A5169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m */,
+				FF1AB7DA169CE620004A5B5D /* UIImage+SEAdditionsTest.h */,
+				FF1AB7DB169CE620004A5B5D /* UIImage+SEAdditionsTest.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -458,6 +477,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF89C6841696E4780023F9EA /* InfoPlist.strings in Resources */,
+				FF1AB7D9169CE5E1004A5B5D /* Sergio.jpeg in Resources */,
+				FF1AB7DE169CEA0A004A5B5D /* fake.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +593,7 @@
 				FF89C6951696E5310023F9EA /* NSString+SEAdditionsTest.m in Sources */,
 				FF89C6961696E5310023F9EA /* UIColor+SEAdditionsTest.m in Sources */,
 				FF1AB7A6169B8F2A004A5B5D /* NSDateFormatter+SEAdditionsTest.m in Sources */,
+				FF1AB7DC169CE621004A5B5D /* UIImage+SEAdditionsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

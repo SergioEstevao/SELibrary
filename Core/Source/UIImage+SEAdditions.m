@@ -28,12 +28,21 @@
     }
     CGImageSourceRef imageSource = CGImageSourceCreateWithURL((__bridge CFURLRef)imageFileURL, NULL);
 
-    if (imageSource != NULL) {
+    if (imageSource == NULL) {
+        return NO;
+    }
+    
+    NSDictionary * dicOptions = @{(NSString *)kCGImageSourceShouldCache:(NSNumber *)kCFBooleanFalse};
+    CFDictionaryRef imageProperties = CGImageSourceCopyPropertiesAtIndex(imageSource, 0, (__bridge CFDictionaryRef)dicOptions);
+    
+    if (imageProperties == NULL) {
         CFRelease(imageSource);
-        return YES;
+        return NO;
     }
 
-    return NO; 
+    CFRelease(imageProperties);
+    CFRelease(imageSource);
+    return YES;
 }
 
 CGSize const CGSizeUnknow = {-1.0f, -1.0f};
@@ -76,16 +85,6 @@ CGSize const CGSizeUnknow = {-1.0f, -1.0f};
 
     return CGSizeMake(width, height);
 
-}
-
-+ (BOOL) hasImageValidSize:(NSURL*)imageFileURL{
-    CGSize size = [UIImage sizeOfImageInURL:imageFileURL];
-    
-    if ( size.width >= 1024 && size.height >= 1024){
-        return NO;
-    }
-
-    return YES;
 }
 
 @end
