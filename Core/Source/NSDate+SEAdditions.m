@@ -1,6 +1,6 @@
 //
 //  NSDate+SEAdditions.m
-//  TMG
+//  SELibrary
 //
 //  Created by Sergio Estevao on 11/03/2011.
 //  Copyright 2011 Sergio Estevao. All rights reserved.
