@@ -82,6 +82,10 @@
 		FF93CD86164EE77A00C98D5D /* SELibrary_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD85164EE77A00C98D5D /* SELibrary_Prefix.pch */; };
 		FF93CD87164EE7CD00C98D5D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD81164EE74200C98D5D /* ImageIO.framework */; };
 		FF93CD89164EE81100C98D5D /* NSThread+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD88164EE81000C98D5D /* NSThread+SEAdditions.h */; };
+		FF9FC93D16AB1F350042548E /* NSException+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9FC93B16AB1F330042548E /* NSException+SEAdditions.h */; };
+		FF9FC93E16AB1F350042548E /* NSException+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9FC93B16AB1F330042548E /* NSException+SEAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF9FC93F16AB1F350042548E /* NSException+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9FC93C16AB1F340042548E /* NSException+SEAdditions.m */; };
+		FF9FC94016AB1F350042548E /* NSException+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9FC93C16AB1F340042548E /* NSException+SEAdditions.m */; };
 		FFE9E2F11658593E00778E21 /* SEAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */; };
 		FFE9E2F21658593E00778E21 /* SEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE9E2F01658593D00778E21 /* SEAppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -150,6 +154,8 @@
 		FF93CD81164EE74200C98D5D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		FF93CD85164EE77A00C98D5D /* SELibrary_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SELibrary_Prefix.pch; path = Core/SELibrary_Prefix.pch; sourceTree = "<group>"; };
 		FF93CD88164EE81000C98D5D /* NSThread+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSThread+SEAdditions.h"; path = "Core/Source/NSThread+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF9FC93B16AB1F330042548E /* NSException+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSException+SEAdditions.h"; path = "Core/Source/NSException+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF9FC93C16AB1F340042548E /* NSException+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSException+SEAdditions.m"; path = "Core/Source/NSException+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
 		FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEAppDelegate.h; path = Core/Source/SEAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		FFE9E2F01658593D00778E21 /* SEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEAppDelegate.m; path = Core/Source/SEAppDelegate.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -258,6 +264,8 @@
 				FF1AB7CC169C1857004A5B5D /* SETableViewCell.m */,
 				FF1AB7D1169C1DA0004A5B5D /* SEBorderView.h */,
 				FF1AB7D2169C1DA0004A5B5D /* SEBorderView.m */,
+				FF9FC93B16AB1F330042548E /* NSException+SEAdditions.h */,
+				FF9FC93C16AB1F340042548E /* NSException+SEAdditions.m */,
 			);
 			name = Source;
 			path = Classes;
@@ -354,6 +362,7 @@
 				FF1AB7A1169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */,
 				FF1AB7CD169C1857004A5B5D /* SETableViewCell.h in Headers */,
 				FF1AB7D3169C1DA1004A5B5D /* SEBorderView.h in Headers */,
+				FF9FC93D16AB1F350042548E /* NSException+SEAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +379,7 @@
 				FF1AB7C6169B9255004A5B5D /* SELogging.h in Headers */,
 				FF1AB7C7169B9255004A5B5D /* UIColor+SEAdditions.h in Headers */,
 				FF1AB7C8169B9255004A5B5D /* UIImage+SEAdditions.h in Headers */,
+				FF9FC93E16AB1F350042548E /* NSException+SEAdditions.h in Headers */,
 				FF1AB7C9169B9255004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */,
 				FF1AB7CE169C1857004A5B5D /* SETableViewCell.h in Headers */,
 			);
@@ -566,6 +576,7 @@
 				FF1AB7A2169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */,
 				FF1AB7CF169C1857004A5B5D /* SETableViewCell.m in Sources */,
 				FF1AB7D5169C1DA1004A5B5D /* SEBorderView.m in Sources */,
+				FF9FC93F16AB1F350042548E /* NSException+SEAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +593,7 @@
 				FF1AB7C0169B9222004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */,
 				FF1AB7D0169C1857004A5B5D /* SETableViewCell.m in Sources */,
 				FF1AB7D6169C1DA1004A5B5D /* SEBorderView.m in Sources */,
+				FF9FC94016AB1F350042548E /* NSException+SEAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -865,6 +877,7 @@
 				FF1AB7B9169B91E5004A5B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF89C6891696E4780023F9EA /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
 			isa = XCConfigurationList;

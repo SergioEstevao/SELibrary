@@ -12,6 +12,7 @@ Contained are several category methods
  - UIImage+SEAdditions  - various utility methods for images
  - UIColor+SEAdditions - various utility methods for colors
  - NSThread+SEAdditions - various utility methods to provide block execution funcionality
+ - NSException+SEAdditions - various utility methods for exceptions
 
 Other classes simplify common tasks
 
