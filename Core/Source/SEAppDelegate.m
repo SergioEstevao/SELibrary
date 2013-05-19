@@ -119,6 +119,24 @@
 
 }
 
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    id<UIApplicationDelegate> service;
+    for(service in self.services){
+        if ([service respondsToSelector:@selector(application:didFailToRegisterForRemoteNotificationsWithError:)]){
+            [service application:application didFailToRegisterForRemoteNotificationsWithError:error];
+        }
+    }
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification{
+    id<UIApplicationDelegate> service;
+    for(service in self.services){
+        if ([service respondsToSelector:@selector(application:didReceiveLocalNotification:)]){
+            [service application:application didReceiveLocalNotification:notification];
+        }
+    }
+}
+
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo{
     id<UIApplicationDelegate> service;
     for(service in self.services){
