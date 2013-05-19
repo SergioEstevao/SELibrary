@@ -34,7 +34,7 @@
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     id<UIApplicationDelegate> service;
     for(service in self.services){
-        if ([service respondsToSelector:@selector(applicationDidEnterBackground:)]){
+        if ([service respondsToSelector:@selector(applicationWillResignActive:)]){
             [service applicationWillResignActive:application];
         }
     }
