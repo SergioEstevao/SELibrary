@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Selibrary : Categories and Classes" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Selibrary</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/SergioEstevao/SELibrary">View on GitHub</a>
+
+          <h1 id="project_title">Selibrary</h1>
+          <h2 id="project_tagline">Categories and Classes</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/SergioEstevao/SELibrary/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/SergioEstevao/SELibrary/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>SELibrary</h1>
+
+<p>SELibrary is a collection of utility methods and category extensions that I'm standardizing on. This should evolve into a toolset of well-documented and -tested code to accelerate future developments.</p>
+
+<h2>At a Glance</h2>
+
+<p>Contained are several category methods</p>
+
+<ul>
+<li>NSString+SEAdditions - various utility methods for strings</li>
+<li>NSDate+SEAdditions  - various utility methods for dates</li>
+<li>UIImage+SEAdditions  - various utility methods for images</li>
+<li>UIColor+SEAdditions - various utility methods for colors</li>
+<li>NSThread+SEAdditions - various utility methods to provide block execution funcionality</li>
+<li>NSException+SEAdditions - various utility methods for exceptions</li>
+</ul><p>Other classes simplify common tasks</p>
+
+<ul>
+<li>SELogging - common logging and assert macros that are enable/disable in DEBUG/RELEASE builds</li>
+<li>SEAppDelegate - app delegate implementation using a "service" approach.</li>
+<li>SETableViewCell - comon code to loading tableviewcell from nib files.</li>
+<li>SEBorderView - a view that allows to define a border. </li>
+</ul><h2>Documentation</h2>
+
+<p>Documentation is being generated using the AppleDoc tool. If you build the Documentation target it will automatic added the information to your XCode documentation library. </p>
+
+<h2>Usage</h2>
+
+<p>The SELibrary.framework is using the "Fake Framework" template put together by <a href="https://github.com/kstenerud/iOS-Universal-Framework">Karl Stenerud</a>. If your app does not use ARC yet (but SELibrary does) then you also need the -fobjc-arc linker flag.</p>
+
+<ol>
+<li>Include the SELibrary in your project.</li>
+<li>Import the SELibrary in your PCH file or include the individual header files where needed.</li>
+<li>Add -ObjC to "Other Linker Flags".</li>
+<li>In your application target's Build Phases: Link Binary With Libraries phase add the following:
+
+<ul>
+<li>CoreGraphics.framework</li>
+<li>ImageIO.framework</li>
+<li>QuartzCore.framework</li>
+<li>SystemConfiguration.framework</li>
+</ul>
+</li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Selibrary maintained by <a href="https://github.com/SergioEstevao">SergioEstevao</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
