@@ -54,6 +54,8 @@
 		FF1AB7D9169CE5E1004A5B5D /* Sergio.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FF1AB7D8169CE5E1004A5B5D /* Sergio.jpeg */; };
 		FF1AB7DC169CE621004A5B5D /* UIImage+SEAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7DB169CE620004A5B5D /* UIImage+SEAdditionsTest.m */; };
 		FF1AB7DE169CEA0A004A5B5D /* fake.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AB7DD169CEA0A004A5B5D /* fake.png */; };
+		FF73ABE41752BA4900FF64E1 /* SEReviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF73ABE21752BA4900FF64E1 /* SEReviewController.h */; };
+		FF73ABE51752BA4900FF64E1 /* SEReviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73ABE31752BA4900FF64E1 /* SEReviewController.m */; };
 		FF89C67C1696E4780023F9EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89C67B1696E4780023F9EA /* SenTestingKit.framework */; };
 		FF89C67D1696E4780023F9EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD7F164EE71D00C98D5D /* UIKit.framework */; };
 		FF89C67E1696E4780023F9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -125,6 +127,8 @@
 		FF1AB7DA169CE620004A5B5D /* UIImage+SEAdditionsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SEAdditionsTest.h"; sourceTree = "<group>"; };
 		FF1AB7DB169CE620004A5B5D /* UIImage+SEAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SEAdditionsTest.m"; sourceTree = "<group>"; };
 		FF1AB7DD169CEA0A004A5B5D /* fake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fake.png; sourceTree = "<group>"; };
+		FF73ABE21752BA4900FF64E1 /* SEReviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEReviewController.h; path = Core/Source/SEReviewController.h; sourceTree = SOURCE_ROOT; };
+		FF73ABE31752BA4900FF64E1 /* SEReviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEReviewController.m; path = Core/Source/SEReviewController.m; sourceTree = SOURCE_ROOT; };
 		FF89C66F16964B1E0023F9EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		FF89C67A1696E4780023F9EA /* UnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF89C67B1696E4780023F9EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -266,6 +270,8 @@
 				FF1AB7D2169C1DA0004A5B5D /* SEBorderView.m */,
 				FF9FC93B16AB1F330042548E /* NSException+SEAdditions.h */,
 				FF9FC93C16AB1F340042548E /* NSException+SEAdditions.m */,
+				FF73ABE21752BA4900FF64E1 /* SEReviewController.h */,
+				FF73ABE31752BA4900FF64E1 /* SEReviewController.m */,
 			);
 			name = Source;
 			path = Classes;
@@ -363,6 +369,7 @@
 				FF1AB7CD169C1857004A5B5D /* SETableViewCell.h in Headers */,
 				FF1AB7D3169C1DA1004A5B5D /* SEBorderView.h in Headers */,
 				FF9FC93D16AB1F350042548E /* NSException+SEAdditions.h in Headers */,
+				FF73ABE41752BA4900FF64E1 /* SEReviewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +584,7 @@
 				FF1AB7CF169C1857004A5B5D /* SETableViewCell.m in Sources */,
 				FF1AB7D5169C1DA1004A5B5D /* SEBorderView.m in Sources */,
 				FF9FC93F16AB1F350042548E /* NSException+SEAdditions.m in Sources */,
+				FF73ABE51752BA4900FF64E1 /* SEReviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
