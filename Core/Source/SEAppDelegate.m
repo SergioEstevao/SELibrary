@@ -22,7 +22,9 @@
 {
     id<UIApplicationDelegate> service;
     for(service in self.services){
-        [service application:application didFinishLaunchingWithOptions:launchOptions];
+        if ([service respondsToSelector:@selector(application:didFinishLaunchingWithOptions:)]){
+            [service application:application didFinishLaunchingWithOptions:launchOptions];
+        }
     }
     
     return YES;
