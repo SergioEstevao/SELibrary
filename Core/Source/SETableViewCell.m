@@ -10,8 +10,8 @@
 #import "SELogging.h"
 #import <objc/runtime.h>
 
-#define kCellNib @"TSDCellNibKey"
-#define kCellTemplate @"TSDCellTemplateKey"
+#define kCellNib @"com.sergioestevao.cellNibKey"
+#define kCellTemplate @"com.sergioestevao.cellTemplateKey"
 
 @implementation SETableViewCell
 

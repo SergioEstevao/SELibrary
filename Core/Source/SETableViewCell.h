@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-/** TSDTableViewCell implements common creation and configuration code for UITableViewCell.
+/** SETableViewCell implements common creation and configuration code for UITableViewCell.
  
  */
 @interface SETableViewCell : UITableViewCell

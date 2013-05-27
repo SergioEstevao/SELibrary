@@ -23,9 +23,6 @@ extern CGSize const CGSizeUnknow;
  */
 + (BOOL) isValidImage:(NSURL*)imageFileURL;
 
-/** Return the size of an image stored in an URL wihout decompressing the file.
- @param imageFileURL URL of image to check
- */
 
 /** Save image to Url in the JPEG format.
  @param url file URL to save the image
