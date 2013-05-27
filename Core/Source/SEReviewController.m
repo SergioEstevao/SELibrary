@@ -43,7 +43,7 @@
 @implementation SEReviewController
 
 static NSString *appLink = nil;
-static CGFloat appVersion = 0;
+static NSString * appVersion = 0;
 static NSTimeInterval minTimeInterval = 0;
 static NSInteger minRunCount = 0;
 static SEReviewAlertDelegate *alertDelegate = nil;
@@ -52,29 +52,33 @@ static id<SEReviewDelegate> delegate = nil;
 static BOOL internetConnected = YES;
 
 + (void) setupWithAppLink:(NSString*)userAppLink
-               appVersion:(CGFloat)userAppVersion
+               appVersion:(NSString *)userAppVersion
       minimumTimeInterval:(NSTimeInterval)userMinTimeInterval
           minimumRunCount:(NSInteger)userMinRunCount
             runCountDelay:(NSInteger)userRunCountDelay
                  delegate:(id<SEReviewDelegate>)userDelegate {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     appLink = [userAppLink copy];
-    appVersion = userAppVersion;
+    appVersion = [userAppVersion copy];
     minTimeInterval = userMinTimeInterval;
     minRunCount = userMinRunCount;
     runCountDelay = userRunCountDelay;
     delegate = userDelegate;
     
-    if (! [defaults objectForKey:@"SE.appFirstRun"]) {
+    //check if any check was ever made
+    if ([defaults objectForKey:@"SE.appFirstRun"] == nil) {
         [defaults setObject:[NSDate date] forKey:@"SE.appFirstRun"];
         [defaults setBool:YES forKey:@"SE.reviewAllowed"];
-        [defaults setFloat:appVersion forKey:@"SE.appVersion"];
+        [defaults setObject:appVersion forKey:@"SE.appVersion"];
         [defaults setBool:NO forKey:@"SE.appAskedForRating"];
         [defaults setInteger:0 forKey:@"SE.runCount"];
         [defaults synchronize];
-    } else if( [defaults floatForKey:@"SE.appVersion"] < appVersion) {
+        return;
+    }
+    //check if version is different
+    if( ![[defaults objectForKey:@"SE.appVersion"] isEqual:appVersion]) {
         [defaults setObject:[NSDate date] forKey:@"SE.appFirstRun"];
-        [defaults setFloat:appVersion forKey:@"SE.appVersion"];
+        [defaults setObject:appVersion forKey:@"SE.appVersion"];
         [defaults setBool:NO forKey:@"SE.appAskedForRating"];
         [defaults setInteger:0 forKey:@"SE.runCount"];
     }

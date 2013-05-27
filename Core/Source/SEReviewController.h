@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger,SEReviewResult) {
 }
 
 + (void) setupWithAppLink:(NSString*)userAppLink
-               appVersion:(CGFloat)userAppVersion
+               appVersion:(NSString*)userAppVersion
       minimumTimeInterval:(NSTimeInterval)userMinTimeInterval
           minimumRunCount:(NSInteger)userMinRunCount
             runCountDelay:(NSInteger)userRunCountDelay
