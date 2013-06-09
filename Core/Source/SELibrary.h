@@ -33,4 +33,6 @@
 #import "SETableViewCell.h"
 #import "SEBorderView.h"
 #import "SEReviewController.h"
-
+#import "NSFileManager+SEAdditions.h"
+#import "UIDevice+SEAdditions.h"
+#import "UIScreen+SEAdditions.h"

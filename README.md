@@ -12,6 +12,9 @@ Contained are several category methods
  - UIColor+SEAdditions - various utility methods for colors
  - NSThread+SEAdditions - various utility methods to provide block execution funcionality
  - NSException+SEAdditions - various utility methods for exceptions
+ - NSFileManager+SEAdditions - methods to retrieve standard applications folders
+ - UIDevice+SEAdditions - helper methods to retrieve device properties
+ - UIScreen+SEAdditions - helper methods to retrieve screen properties
 
 Other classes simplify common tasks
 
