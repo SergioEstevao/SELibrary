@@ -69,6 +69,12 @@
 		FF89C6A01696E9B10023F9EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89C69E1696E9AD0023F9EA /* QuartzCore.framework */; };
 		FF89C6A21696EA2D0023F9EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89C6A11696EA2C0023F9EA /* CoreGraphics.framework */; };
 		FF89C6A31696EA340023F9EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89C6A11696EA2C0023F9EA /* CoreGraphics.framework */; };
+		FF8C01521764AA18000D2509 /* NSFileManager+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8C014C1764AA18000D2509 /* NSFileManager+SEAdditions.h */; };
+		FF8C01531764AA18000D2509 /* NSFileManager+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C014D1764AA18000D2509 /* NSFileManager+SEAdditions.m */; };
+		FF8C01541764AA18000D2509 /* UIDevice+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8C014E1764AA18000D2509 /* UIDevice+SEAdditions.h */; };
+		FF8C01551764AA18000D2509 /* UIDevice+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C014F1764AA18000D2509 /* UIDevice+SEAdditions.m */; };
+		FF8C01561764AA18000D2509 /* UIScreen+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8C01501764AA18000D2509 /* UIScreen+SEAdditions.h */; };
+		FF8C01571764AA18000D2509 /* UIScreen+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C01511764AA18000D2509 /* UIScreen+SEAdditions.m */; };
 		FF93CD73164DD33900C98D5D /* NSDate+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */; };
 		FF93CD74164DD33900C98D5D /* NSDate+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93CD66164DD33900C98D5D /* NSDate+SEAdditions.m */; };
 		FF93CD75164DD33900C98D5D /* NSString+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF93CD67164DD33900C98D5D /* NSString+SEAdditions.h */; };
@@ -143,6 +149,12 @@
 		FF89C6931696E5310023F9EA /* UIColor+SEAdditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SEAdditionsTest.m"; sourceTree = "<group>"; };
 		FF89C69E1696E9AD0023F9EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FF89C6A11696EA2C0023F9EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF8C014C1764AA18000D2509 /* NSFileManager+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+SEAdditions.h"; path = "Core/Source/NSFileManager+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF8C014D1764AA18000D2509 /* NSFileManager+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+SEAdditions.m"; path = "Core/Source/NSFileManager+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
+		FF8C014E1764AA18000D2509 /* UIDevice+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SEAdditions.h"; path = "Core/Source/UIDevice+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF8C014F1764AA18000D2509 /* UIDevice+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SEAdditions.m"; path = "Core/Source/UIDevice+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
+		FF8C01501764AA18000D2509 /* UIScreen+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+SEAdditions.h"; path = "Core/Source/UIScreen+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
+		FF8C01511764AA18000D2509 /* UIScreen+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+SEAdditions.m"; path = "Core/Source/UIScreen+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
 		FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+SEAdditions.h"; path = "Core/Source/NSDate+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
 		FF93CD66164DD33900C98D5D /* NSDate+SEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SEAdditions.m"; path = "Core/Source/NSDate+SEAdditions.m"; sourceTree = SOURCE_ROOT; };
 		FF93CD67164DD33900C98D5D /* NSString+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SEAdditions.h"; path = "Core/Source/NSString+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
@@ -248,6 +260,12 @@
 		493C20B51104B04100C78E9B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				FF8C014C1764AA18000D2509 /* NSFileManager+SEAdditions.h */,
+				FF8C014D1764AA18000D2509 /* NSFileManager+SEAdditions.m */,
+				FF8C014E1764AA18000D2509 /* UIDevice+SEAdditions.h */,
+				FF8C014F1764AA18000D2509 /* UIDevice+SEAdditions.m */,
+				FF8C01501764AA18000D2509 /* UIScreen+SEAdditions.h */,
+				FF8C01511764AA18000D2509 /* UIScreen+SEAdditions.m */,
 				FFE9E2EF1658593D00778E21 /* SEAppDelegate.h */,
 				FFE9E2F01658593D00778E21 /* SEAppDelegate.m */,
 				FF93CD65164DD33900C98D5D /* NSDate+SEAdditions.h */,
@@ -370,6 +388,9 @@
 				FF1AB7D3169C1DA1004A5B5D /* SEBorderView.h in Headers */,
 				FF9FC93D16AB1F350042548E /* NSException+SEAdditions.h in Headers */,
 				FF73ABE41752BA4900FF64E1 /* SEReviewController.h in Headers */,
+				FF8C01521764AA18000D2509 /* NSFileManager+SEAdditions.h in Headers */,
+				FF8C01541764AA18000D2509 /* UIDevice+SEAdditions.h in Headers */,
+				FF8C01561764AA18000D2509 /* UIScreen+SEAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +606,9 @@
 				FF1AB7D5169C1DA1004A5B5D /* SEBorderView.m in Sources */,
 				FF9FC93F16AB1F350042548E /* NSException+SEAdditions.m in Sources */,
 				FF73ABE51752BA4900FF64E1 /* SEReviewController.m in Sources */,
+				FF8C01531764AA18000D2509 /* NSFileManager+SEAdditions.m in Sources */,
+				FF8C01551764AA18000D2509 /* UIDevice+SEAdditions.m in Sources */,
+				FF8C01571764AA18000D2509 /* UIScreen+SEAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
