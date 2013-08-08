@@ -34,4 +34,19 @@
 #define ALog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
 #endif
 
-#define ZAssert(condition, ...) do { if (!(condition)) { ALog(__VA_ARGS__); }} while(0)
+#define ZAssert(condition, ...) \
+do { \
+if (!(condition)) { \
+ALog(__VA_ARGS__); \
+} \
+} while(0)
+
+#define AAssert(expression, ...) \
+do { \
+if(!(expression)) { \
+NSString *__AAssert_temp_string = [NSString stringWithFormat: @"Assertion failure: %s in %s on line %s:%d. %@", #expression, __func__, __FILE__, __LINE__, [NSString stringWithFormat: @"" __VA_ARGS__]]; \
+NSLog(@"%@", __AAssert_temp_string); \
+__crashreporter_info__ = [__AAssert_temp_string UTF8String]; \
+abort(); \
+} \
+} while(0)
