@@ -15,37 +15,25 @@
 
 @implementation SEDemoIndexViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-- (void) loadView {
-
-    self.view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-    self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth + UIViewAutoresizingFlexibleHeight;
-    self.view.autoresizesSubviews = YES;
-    self.view.backgroundColor = [UIColor yellowColor];
-}
-
 - (void)viewDidLoad
 {
-    [super viewDidLoad];    
+    [super viewDidLoad];
 	// Do any additional setup after loading the view.
     UITableView * tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     self.dataSource = [[SEArrayDataSource alloc]
-                       initWithSections:@[@"Section 1", @"Section 2"] 
-                       items:@[@[@"Option 1", @"Option 2"], @[@"Option 3", @"Option 4"]] cellIdentifier:@"Cell" configureCellBlock:^(UITableViewCell *cell, id item) {
-        cell.textLabel.text = [item description];        
-    }];
+                       initWithSections:@[@"Section 1", @"Section 2"]
+                       items:@[@[@"Option 1", @"Option 2"], @[@"Option 3", @"Option 4"]] cellIdentifier:@"Cell" configureCellBlock:^(UITableViewCell *cell, id item)
+                       {
+                           cell.textLabel.text = [item description];
+                           SEBorderView * border =  [[SEBorderView alloc] initWithFrame:CGRectMake(0,0,40,40)];
+                           [border setBackgroundColor:[UIColor whiteColor]];
+                           cell.accessoryView = border;
+                           
+                       }];
     tableView.dataSource = self.dataSource;
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth + UIViewAutoresizingFlexibleHeight;
-
+    
     [self.view addSubview:tableView];
 }
 

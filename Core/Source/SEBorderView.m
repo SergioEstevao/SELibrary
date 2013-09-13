@@ -32,6 +32,7 @@
         _borderWidth = 1.0;
         _borderLayout = SEBorderLayoutAll;
         _borderColor = [UIColor blackColor];
+        self.contentMode = UIViewContentModeRedraw;
     }
     return self;
 }
