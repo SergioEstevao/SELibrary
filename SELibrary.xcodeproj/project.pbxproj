@@ -22,6 +22,24 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5898401917E3225900B61749 /* SEArrayDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5898401717E3225900B61749 /* SEArrayDataSource.h */; };
+		5898401A17E3225900B61749 /* SEArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898401817E3225900B61749 /* SEArrayDataSource.m */; };
+		5898402017E34AB400B61749 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD7F164EE71D00C98D5D /* UIKit.framework */; };
+		5898402117E34AB400B61749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		5898402217E34AB400B61749 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89C6A11696EA2C0023F9EA /* CoreGraphics.framework */; };
+		5898402817E34AB500B61749 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5898402617E34AB400B61749 /* InfoPlist.strings */; };
+		5898402A17E34AB500B61749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898402917E34AB500B61749 /* main.m */; };
+		5898402E17E34AB500B61749 /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898402D17E34AB500B61749 /* DemoAppDelegate.m */; };
+		5898403017E34AB500B61749 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5898402F17E34AB500B61749 /* Default.png */; };
+		5898403217E34AB500B61749 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5898403117E34AB500B61749 /* Default@2x.png */; };
+		5898403417E34AB500B61749 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5898403317E34AB500B61749 /* Default-568h@2x.png */; };
+		5898403A17E34AFE00B61749 /* SEDemoIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898403917E34AFD00B61749 /* SEDemoIndexViewController.m */; };
+		5898403D17E34B1D00B61749 /* libSELibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libSELibrary.a */; };
+		5898403E17E34CCD00B61749 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF93CD81164EE74200C98D5D /* ImageIO.framework */; };
+		5898403F17E35CB300B61749 /* SEArrayDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5898401717E3225900B61749 /* SEArrayDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5898404017E35CCB00B61749 /* UIScreen+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8C01501764AA18000D2509 /* UIScreen+SEAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5898404117E35CD300B61749 /* SEReviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF73ABE21752BA4900FF64E1 /* SEReviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5898404217E35CDF00B61749 /* NSFileManager+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8C014C1764AA18000D2509 /* NSFileManager+SEAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		FF1AB7A1169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */; };
 		FF1AB7A2169B8EF4004A5B5D /* NSDateFormatter+SEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AB7A0169B8EF3004A5B5D /* NSDateFormatter+SEAdditions.m */; };
@@ -99,6 +117,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5898403B17E34B1600B61749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = SELibrary;
+		};
 		FF89C69B1696E9560023F9EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
@@ -116,6 +141,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5898401717E3225900B61749 /* SEArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEArrayDataSource.h; path = Core/Source/SEArrayDataSource.h; sourceTree = SOURCE_ROOT; };
+		5898401817E3225900B61749 /* SEArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEArrayDataSource.m; path = Core/Source/SEArrayDataSource.m; sourceTree = SOURCE_ROOT; };
+		5898401F17E34AB400B61749 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5898402517E34AB400B61749 /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
+		5898402717E34AB400B61749 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5898402917E34AB500B61749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5898402B17E34AB500B61749 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		5898402C17E34AB500B61749 /* DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		5898402D17E34AB500B61749 /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
+		5898402F17E34AB500B61749 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5898403117E34AB500B61749 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5898403317E34AB500B61749 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5898403817E34AFD00B61749 /* SEDemoIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEDemoIndexViewController.h; sourceTree = "<group>"; };
+		5898403917E34AFD00B61749 /* SEDemoIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEDemoIndexViewController.m; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSELibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSELibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1AB79F169B8EF2004A5B5D /* NSDateFormatter+SEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+SEAdditions.h"; path = "Core/Source/NSDateFormatter+SEAdditions.h"; sourceTree = SOURCE_ROOT; };
@@ -177,6 +216,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5898401C17E34AB400B61749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898403E17E34CCD00B61749 /* ImageIO.framework in Frameworks */,
+				5898403D17E34B1D00B61749 /* libSELibrary.a in Frameworks */,
+				5898402017E34AB400B61749 /* UIKit.framework in Frameworks */,
+				5898402117E34AB400B61749 /* Foundation.framework in Frameworks */,
+				5898402217E34AB400B61749 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07C0554694100DB518D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +270,7 @@
 				D2AAC07E0554694100DB518D /* libSELibrary.a */,
 				FF89C67A1696E4780023F9EA /* UnitTest.octest */,
 				FF1AB7AF169B91E5004A5B5D /* SELibrary.framework */,
+				5898401F17E34AB400B61749 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,6 +282,7 @@
 				FF1AB7CA169B942C004A5B5D /* Core */,
 				FF89C67F1696E4780023F9EA /* UnitTest */,
 				FF1AB7B0169B91E5004A5B5D /* Framework */,
+				5898402317E34AB400B61749 /* Demo */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
@@ -290,9 +343,37 @@
 				FF9FC93C16AB1F340042548E /* NSException+SEAdditions.m */,
 				FF73ABE21752BA4900FF64E1 /* SEReviewController.h */,
 				FF73ABE31752BA4900FF64E1 /* SEReviewController.m */,
+				5898401717E3225900B61749 /* SEArrayDataSource.h */,
+				5898401817E3225900B61749 /* SEArrayDataSource.m */,
 			);
 			name = Source;
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		5898402317E34AB400B61749 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5898402C17E34AB500B61749 /* DemoAppDelegate.h */,
+				5898402D17E34AB500B61749 /* DemoAppDelegate.m */,
+				5898402417E34AB400B61749 /* Supporting Files */,
+				5898403817E34AFD00B61749 /* SEDemoIndexViewController.h */,
+				5898403917E34AFD00B61749 /* SEDemoIndexViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		5898402417E34AB400B61749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5898402517E34AB400B61749 /* Demo-Info.plist */,
+				5898402617E34AB400B61749 /* InfoPlist.strings */,
+				5898402917E34AB500B61749 /* main.m */,
+				5898402B17E34AB500B61749 /* Demo-Prefix.pch */,
+				5898402F17E34AB500B61749 /* Default.png */,
+				5898403117E34AB500B61749 /* Default@2x.png */,
+				5898403317E34AB500B61749 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FF1AB7B0169B91E5004A5B5D /* Framework */ = {
@@ -391,6 +472,7 @@
 				FF8C01521764AA18000D2509 /* NSFileManager+SEAdditions.h in Headers */,
 				FF8C01541764AA18000D2509 /* UIDevice+SEAdditions.h in Headers */,
 				FF8C01561764AA18000D2509 /* UIScreen+SEAdditions.h in Headers */,
+				5898401917E3225900B61749 /* SEArrayDataSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,20 +484,42 @@
 				FF1AB7C2169B9255004A5B5D /* NSDate+SEAdditions.h in Headers */,
 				FF1AB7C3169B9255004A5B5D /* NSString+SEAdditions.h in Headers */,
 				FF1AB7C4169B9255004A5B5D /* NSThread+SEAdditions.h in Headers */,
-				FF1AB7D4169C1DA1004A5B5D /* SEBorderView.h in Headers */,
 				FF1AB7C5169B9255004A5B5D /* SELibrary.h in Headers */,
 				FF1AB7C6169B9255004A5B5D /* SELogging.h in Headers */,
 				FF1AB7C7169B9255004A5B5D /* UIColor+SEAdditions.h in Headers */,
+				5898404217E35CDF00B61749 /* NSFileManager+SEAdditions.h in Headers */,
 				FF1AB7C8169B9255004A5B5D /* UIImage+SEAdditions.h in Headers */,
+				5898404017E35CCB00B61749 /* UIScreen+SEAdditions.h in Headers */,
 				FF9FC93E16AB1F350042548E /* NSException+SEAdditions.h in Headers */,
 				FF1AB7C9169B9255004A5B5D /* NSDateFormatter+SEAdditions.h in Headers */,
 				FF1AB7CE169C1857004A5B5D /* SETableViewCell.h in Headers */,
+				FF1AB7D4169C1DA1004A5B5D /* SEBorderView.h in Headers */,
+				5898404117E35CD300B61749 /* SEReviewController.h in Headers */,
+				5898403F17E35CB300B61749 /* SEArrayDataSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5898401E17E34AB400B61749 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5898403517E34AB500B61749 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				5898401B17E34AB400B61749 /* Sources */,
+				5898401C17E34AB400B61749 /* Frameworks */,
+				5898401D17E34AB400B61749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5898403C17E34B1600B61749 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 5898401F17E34AB400B61749 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D2AAC07D0554694100DB518D /* SELibrary */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SELibrary" */;
@@ -497,11 +601,23 @@
 				FFFB6BD415B065E800E89568 /* Documentation */,
 				FF89C6791696E4780023F9EA /* UnitTest */,
 				FF1AB7AE169B91E5004A5B5D /* Framework */,
+				5898401E17E34AB400B61749 /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5898401D17E34AB400B61749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898402817E34AB500B61749 /* InfoPlist.strings in Resources */,
+				5898403017E34AB500B61749 /* Default.png in Resources */,
+				5898403217E34AB500B61749 /* Default@2x.png in Resources */,
+				5898403417E34AB500B61749 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF1AB7AB169B91E5004A5B5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -591,6 +707,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5898401B17E34AB400B61749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898402A17E34AB500B61749 /* main.m in Sources */,
+				5898402E17E34AB500B61749 /* DemoAppDelegate.m in Sources */,
+				5898403A17E34AFE00B61749 /* SEDemoIndexViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -609,6 +735,7 @@
 				FF8C01531764AA18000D2509 /* NSFileManager+SEAdditions.m in Sources */,
 				FF8C01551764AA18000D2509 /* UIDevice+SEAdditions.m in Sources */,
 				FF8C01571764AA18000D2509 /* UIScreen+SEAdditions.m in Sources */,
+				5898401A17E3225900B61749 /* SEArrayDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +771,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5898403C17E34B1600B61749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* SELibrary */;
+			targetProxy = 5898403B17E34B1600B61749 /* PBXContainerItemProxy */;
+		};
 		FF89C69C1696E9560023F9EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D2AAC07D0554694100DB518D /* SELibrary */;
@@ -657,6 +789,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5898402617E34AB400B61749 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5898402717E34AB400B61749 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		FF1AB7B3169B91E5004A5B5D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -717,7 +857,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -731,10 +871,69 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5898403617E34AB500B61749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5898403717E34AB500B61749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -901,6 +1100,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		5898403517E34AB500B61749 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5898403617E34AB500B61749 /* Debug */,
+				5898403717E34AB500B61749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		FF1AB7B7169B91E5004A5B5D /* Build configuration list for PBXNativeTarget "Framework" */ = {
 			isa = XCConfigurationList;

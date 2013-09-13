@@ -22,7 +22,7 @@
 // THE SOFTWARE.
 
 #import "SELogging.h"
-#import "SEAppDelegate.h"
+#import "DemoAppDelegate.h"
 #import "NSString+SEAdditions.h"
 #import "NSDate+SEAdditions.h"
 #import "UIImage+SEAdditions.h"
@@ -36,3 +36,4 @@
 #import "NSFileManager+SEAdditions.h"
 #import "UIDevice+SEAdditions.h"
 #import "UIScreen+SEAdditions.h"
+#import "SEArrayDataSource.h"

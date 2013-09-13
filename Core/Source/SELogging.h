@@ -23,6 +23,7 @@
 
 // Simple macros to enable stripping of logging from release builds
 
+
 #ifdef DEBUG
 #define DLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
 #define ALog(...) [[NSAssertionHandler currentHandler] handleFailureInFunction:[NSString stringWithCString:__PRETTY_FUNCTION__ encoding:NSUTF8StringEncoding] file:[NSString stringWithCString:__FILE__ encoding:NSUTF8StringEncoding] lineNumber:__LINE__ description:__VA_ARGS__]
@@ -46,7 +47,6 @@ do { \
 if(!(expression)) { \
 NSString *__AAssert_temp_string = [NSString stringWithFormat: @"Assertion failure: %s in %s on line %s:%d. %@", #expression, __func__, __FILE__, __LINE__, [NSString stringWithFormat: @"" __VA_ARGS__]]; \
 NSLog(@"%@", __AAssert_temp_string); \
-__crashreporter_info__ = [__AAssert_temp_string UTF8String]; \
 abort(); \
 } \
 } while(0)
