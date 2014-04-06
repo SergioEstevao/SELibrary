@@ -12,7 +12,7 @@
 @implementation SEArrayDataSource
 
 - (id) init {
-    return [self initWithItems:[NSArray array] cellIdentifier:@"" configureCellBlock:^(UITableViewCell *cell, id item) {
+    return [self initWithItems:@[] cellIdentifier:@"" configureCellBlock:^(UITableViewCell *cell, id item) {
         cell.textLabel.text = [item description];
     }];
 }

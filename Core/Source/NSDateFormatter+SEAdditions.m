@@ -27,11 +27,11 @@
 
 + (NSDateFormatter *) dateFormatterForFormat:(NSString *) format {
     NSMutableDictionary * dict = [[NSThread currentThread] threadDictionary];
-    NSDateFormatter *formatter = [dict objectForKey:format];
+    NSDateFormatter *formatter = dict[format];
     if ( formatter == nil){
         formatter = [[NSDateFormatter alloc] init];
         [formatter setDateFormat:format];
-        [dict setObject:formatter forKey:format];
+        dict[format] = formatter;
     }
     return formatter;
 }
